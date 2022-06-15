@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T15:38:00.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="84SfV-nTXKuPAXgA8FhQ" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-15T15:42:11.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="mqR3WZ_kVvihgTAWOeda" version="17.5.0" type="github">
   <diagram id="R5a5NPqz2yX41LrVqOXw" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,7 +130,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vYbNUfEm3Xzhya9i326D-30" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;Each SF Organization will have a separate db schema&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=#FFE599;fontSize=12;fillColor=#FFE599;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="400" width="110" height="100" as="geometry" />
+          <mxGeometry x="-90" y="380" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="vYbNUfEm3Xzhya9i326D-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;fontFamily=Lucida Console;fontSize=17;fontColor=#FFFFFF;" edge="1" parent="1" source="vYbNUfEm3Xzhya9i326D-50">
           <mxGeometry relative="1" as="geometry">
@@ -138,7 +138,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vYbNUfEm3Xzhya9i326D-50" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;Each SF Organization will have its own queues&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=#FFE599;fontSize=12;fillColor=#FFE599;align=left;" vertex="1" parent="1">
-          <mxGeometry x="850" y="300" width="110" height="100" as="geometry" />
+          <mxGeometry x="880" y="290" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="vYbNUfEm3Xzhya9i326D-56" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="566" y="770" width="108" height="110" as="geometry" />
@@ -221,8 +221,24 @@
         <mxCell id="vYbNUfEm3Xzhya9i326D-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Lucida Console;fontSize=11;fontColor=#FFFFFF;" edge="1" parent="1" source="vYbNUfEm3Xzhya9i326D-71" target="vYbNUfEm3Xzhya9i326D-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vYbNUfEm3Xzhya9i326D-90" value="&lt;span style=&quot;font-family: &amp;#34;lucida console&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none ; background-color: rgb(255 , 229 , 153)&quot;&gt;&lt;font style=&quot;font-size: 13px&quot; color=&quot;#000000&quot;&gt;Salesforce org exposed API for callbacks&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="250" width="290" height="30" as="geometry" />
+        <mxCell id="vYbNUfEm3Xzhya9i326D-90" value="&lt;span style=&quot;font-family: &amp;#34;lucida console&amp;#34; ; font-style: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none ; background-color: rgb(255 , 229 , 153)&quot;&gt;&lt;font style=&quot;font-size: 13px&quot; color=&quot;#000000&quot;&gt;&lt;b&gt;Salesforce org exposed API for callbacks&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Lucida Console;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="250" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vYbNUfEm3Xzhya9i326D-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;fontSize=13;fontColor=#000000;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="vYbNUfEm3Xzhya9i326D-68" target="vYbNUfEm3Xzhya9i326D-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="825" />
+              <mxPoint x="840" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vYbNUfEm3Xzhya9i326D-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=13;fontColor=#000000;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" target="vYbNUfEm3Xzhya9i326D-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="628" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vYbNUfEm3Xzhya9i326D-98" value="&lt;font face=&quot;Lucida Console&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 11px&quot;&gt;Consumers will be spawn on demand when a message from SFDC should be routed to a queue&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=#FFE599;fontSize=12;fillColor=#FFE599;align=left;" vertex="1" parent="1">
+          <mxGeometry x="940" y="560" width="140" height="138" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
