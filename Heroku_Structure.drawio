@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T22:02:49.198Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="FrzXc8twPaAy7GiX2bJT" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T07:32:50.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="bGAvBT9oQElNYcU-Sf92" version="17.5.0" type="github">
   <diagram id="R5a5NPqz2yX41LrVqOXw" name="Page-1">
     <mxGraphModel dx="2249" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,6 +280,22 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="460" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vYbNUfEm3Xzhya9i326D-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Lucida Console;fontSize=12;fontColor=#000000;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" target="vYbNUfEm3Xzhya9i326D-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="830" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vYbNUfEm3Xzhya9i326D-120" value="&lt;font face=&quot;Lucida Console&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 11px&quot;&gt;Each Consumer will execute the assigned task calling an exposed SFDC org callback REST endpoint&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=#FFE599;fontSize=12;fillColor=#FFE599;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="920" width="140" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="vYbNUfEm3Xzhya9i326D-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Lucida Console;fontSize=12;fontColor=#000000;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="vYbNUfEm3Xzhya9i326D-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vYbNUfEm3Xzhya9i326D-122" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;A Salesforce org sends an api Request to the flow worker with a list of steps to process,each entry has the stepId and its queue specified, if the queue doesn&#39;t exists, it will be created on the fly.&lt;/b&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=#FFE599;fontSize=12;fillColor=#FFE599;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="120" width="190" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
